@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html dir="ltr" lang="en">
+<!doctype html>
+<html dir=ltr lang=en>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<meta charset="utf-8">
+<meta charset=utf-8>
 <meta property="fb:admins" content="509248955">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="description" property="og:description" content="Open source Internet artwork. Contribute through GitHub, by editing this file: https://github.com/acjbizar/opencomposition/blob/master/script.js.">
@@ -10,7 +10,6 @@
 <meta property="og:url" content="http://opencomposition.com/">
 <meta name="viewport" content="initial-scale=1.0,width:device-width">
 <title>Open Composition</title>
-<link href="https://github.com/acjbizar/opencomposition">
 <link rel="canonical" href="http://opencomposition.com/">
 <link rel="shortcut icon" href="favicon.ico">
 <style>
@@ -19,18 +18,22 @@ body,canvas,html{display:block;height:100%;overflow:hidden;width:100%}
 head,link,meta,script,style,title{display:none}
 </style>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-36569769-5', 'opencomposition.com');
-  ga('send', 'pageview');
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36569769-5']);
+  _gaq.push(['_setDomainName', 'opencomposition.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
 </script>
 </head>
-<body id="top">
-<canvas id="content" role="main">Requires <code>html:canvas</code> support.</code></canvas>
-<script src="script.js"></script>
+<body id=top>
+<canvas id=content role=main></canvas>
+<script src=script.js></script>
 </body>
 </html>
