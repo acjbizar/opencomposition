@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "20190801",
+    "name": "Open Composition",
+    "default_locale": "en",
+    "description": "Ongoing open source Internet artwork. Contribute through GitHub here: https://github.com/acjbizar/opencomposition/.",
+    "author": "Alexander Christiaan Jacob",
+    "theme_color": "#ffffff",
+    "homepage_url": "https://opencomposition.com/",
+    "start_url": "https://opencomposition.com/",
+    "display": "fullscreen"
+}
