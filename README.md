@@ -1,4 +1,4 @@
-# Open Composition
+# [Open Composition](https://opencomposition.com/)
 
 Contribute to the Internet artwork [Open Composition](https://opencomposition.com/).
 
